@@ -76,7 +76,7 @@ pub fn vertex(
     #[spirv(viewport_mask_per_view_nv)] viewport_mask_per_view_nv: u32,
     #[spirv(warp_id_nv)] warp_id_nv: u32,
     #[spirv(warps_per_sm_nv)] warps_per_sm_nv: u32,
-    // #[spirv(vertex_id)] vertex_id: u32, -- not allowed with vulkan
+    #[spirv(vertex_id)] vertex_id: u32,
 ) {
 }
 
